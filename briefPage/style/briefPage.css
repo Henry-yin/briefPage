@@ -1,0 +1,191 @@
+/*Coding By Henry-yin*/
+
+.head ul li {
+    float: right;
+    color: #ccc;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.head ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.head .btn {
+    color: #2de3ab;
+    border: 1px #2de3ab solid;
+    border-radius: 20px;
+    padding: 2px 15px;
+}
+
+.head .btn:hover {
+    background-color: #2de3ab;
+    color: white;
+    border: 1px #2de3ab solid;
+}
+
+.head img {
+    width: 15%;
+    height: 40px;
+    float: left;
+}
+
+.head {
+    padding: 5px 5px 20px 20px;
+    overflow: hidden;
+}
+
+.top {
+    background: -webkit-linear-gradient(top, #21ABC7, #616DB3);
+    background: -moz-linear-gradient(top, #21ABC7, #616DB3);
+
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+
+}
+
+.top h1, .top h6 {
+    color: white;
+    margin: 5px auto;
+    padding: 0px;
+    font-weight: 100;
+}
+
+.btns {
+    position: relative;
+    margin: 20px auto;
+    box-shadow: 0 0 2px white;
+    height: 35px;
+    padding: 0px;
+}
+
+.btns a {
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    height: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.top .btn1 {
+    color: dodgerblue;
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    left: 0px;
+}
+
+.top .btn2 {
+    color: white;
+    background-color: dodgerblue;
+    width: 50%;
+    position: absolute;
+    right: 0px;
+
+}
+
+input[type="checkbox"] {
+    display: none;
+    /*-o-appearance: none;*/
+    /*-ms-appearance: none;*/
+
+}
+
+.checkboxFive {
+    width: 50%;
+    position: relative;
+    padding-left: 25px;
+}
+
+.form-r {
+    position: relative;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    /*margin-bottom: 30px;*/
+}
+
+.checkboxFive label, .chk_2 label {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background: transparent;
+
+}
+
+.checkboxFive label:after, .chk_2 label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background: transparent;
+    top: 0;
+    left: 0;
+    border: 3px solid #33b33a;
+    border-top: none;
+    border-right: none;
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.checkboxFive input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+#abt {
+    color: white;
+    border: 1px #2de3ab solid;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #21ABC7;
+
+}
+
+.center-1 h1 {
+    margin-top: 0px;
+    padding-top: 100px;
+    color: #ccc
+}
+
+.center-1 h5 {
+    color: #ccc;
+}
+
+.center-2 a {
+    color: #21ABC7
+}
+
+.bottom {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    -webkit-filter: mask(color:gray);
+}
+
+.bottom a, .bottom p {
+    color: #cccccc;
+    font-size: 13px;
+}
+
+.bottom ul {
+    list-style-type: none;
+}
+
+.bottom .left img {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: #8c8c8c;
+}
