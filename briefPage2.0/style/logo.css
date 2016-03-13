@@ -1,0 +1,108 @@
+/*Coded By Henry-yin*/
+.resetfloat:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.head {
+    background: url("../images/logo.png") 5% center no-repeat;
+    overflow: hidden;
+}
+
+.head .checked {
+    color: #04928e;
+    border-bottom: 3px #04928e solid;
+}
+
+.head ul {
+    list-style-type: none;
+}
+
+.head a {
+    display: inline-block;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    padding: 15px 0;
+    width: 90px;
+    color: black;
+    font-size: 18px;
+    border-bottom: 3px transparent solid;
+}
+
+.head a:hover, .checked {
+    background-color: #edecec;
+    border-bottom: 3px #04928e solid;
+    color: #04928e;
+    text-decoration: none;
+}
+
+.head2 {
+    padding-top: 20px;
+}
+
+.head2 p {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+    left: 30px;
+}
+
+.head2 ul {
+    display: inline-block;
+
+}
+
+.head2 ul li {
+    float: left;
+    list-style-type: none;
+    border-left: 1px #04928e solid;
+    padding-left: 3px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.head2 ul li:hover {
+    color: #04928e;
+}
+
+.row a {
+    color: #000000;
+    border: 2px solid yellow;
+    background-color: yellow;
+    padding: 4px 5px;
+}
+
+.row a:hover {
+    text-decoration: none;
+    color: #04928e;
+}
+
+.bottom img {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.bottom h2 {
+    color: #179a97;
+}
+
+.footer {
+    width: 100%;
+    text-align: left;
+    padding-left: 15%;
+    background-color: #179a97;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer p {
+    color: #d6d6d6;
+    margin: 0px;
+}

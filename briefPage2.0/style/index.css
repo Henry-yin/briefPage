@@ -1,0 +1,190 @@
+/*Coded By Henry-yin*/
+.head {
+    background: url(../images/logo.png) 5% center no-repeat;
+    overflow: hidden;
+}
+
+.head .checked {
+    color: #04928e;
+    border-bottom: 3px #04928e solid;
+}
+
+.head ul {
+    list-style-type: none;
+}
+
+.head a {
+    display: inline-block;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    padding: 15px 0;
+    width: 90px;
+    color: black;
+    font-size: 18px;
+    border-bottom: 3px transparent solid;
+}
+
+.head a:hover,
+.checked {
+    background-color: #edecec;
+    border-bottom: 3px #04928e solid;
+    color: #04928e;
+}
+
+.icon {
+    text-align: center;
+}
+
+.btn {
+    padding: 7px 10px;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+.btn:hover {
+    color: #04928e;
+}
+
+.item h1 {
+    font-size: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+.m_center img {
+    height: 150px;
+}
+
+.m_center a {
+
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+
+.m_center .col-md-3 {
+    height: 330px;
+
+}
+
+.body-1 {
+    margin-top: 100px;
+}
+
+.body-1 h1 {
+    color: #149995;
+}
+
+.body-1 a {
+    text-decoration: none;
+    color: #5fc0d1;
+}
+
+#under {
+    margin: 20px auto;
+}
+
+.boxx {
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+
+}
+
+.body_2 .row {
+    width: 99.99999999%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.body_2 .col-md-7 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.body_2 h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bot {
+    background-color: rgba(244, 244, 244, 0.58);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.m_slide {
+    position: relative;
+    text-align: center;
+    padding: 20px 100px 0 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.m_slide p {
+    margin-bottom: 0px;
+}
+
+.m_slide .left {
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+
+.m_slide .glyphicon {
+    color: #179a97;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.m_slide .right {
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+.bottom img {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.bottom h2 {
+    color: #179a97;
+}
+
+.footer {
+    text-align: left;
+    padding-left: 15%;
+    background-color: #179a97;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.footer p {
+    color: #d6d6d6;
+    margin: 0;
+}
+
+.footer img {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
